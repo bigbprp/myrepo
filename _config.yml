@@ -30,7 +30,8 @@ twitter_username: panchalb1
 github_username:  bigbprp
 
 # Build settings
-theme: minima
+# Removed minima theme as I am using my own theme customization
+#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
