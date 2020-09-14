@@ -61,6 +61,7 @@ titles_from_headings:
   strip_title: false
   collections: false
 
+
 relative_links:
   enabled:     true
-  collections: false
+  collections: false 
