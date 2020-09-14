@@ -10,6 +10,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.1.1"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # Removed minima theme as I am using my own theme customization
+gem 'jekyll-seo-tag'
 
 #gem "minima", "~> 2.5"
 #gem "minima", "~> 2.5"

@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Welcome to My personal blog
+title: AI for Healthcare & Medicine
 email: bigbprp@gmail.com 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -28,7 +28,10 @@ baseurl: "/myrepo" # the subpath of your site, e.g. /blog
 url: "https://github.com/bigbprp" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: panchalb1
 github_username:  bigbprp
-
+linkedin_username: panchalbhavin
+author: Bhavin Panchal 
+seo: Bhavin Panchal
+title-logo: /images/title-logo.jpg
 # Build settings
 # Removed minima theme as I am using my own theme customization
 #theme: minima
@@ -37,6 +40,10 @@ plugins:
   - jekyll-paginate
   - jekyll-titles-from-headings
   - jekyll-relative-links
+  - jekyll-seo-tag
+
+
+copyright: "panchalbhavin.com"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
